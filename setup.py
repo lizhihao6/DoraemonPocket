@@ -2,13 +2,13 @@ from setuptools import setup
 from setuptools import find_packages
 
 # change this.
-NAME = "your package name"
+NAME = "DoraemonPocket"
 VERSION = "0.0.1"
-AUTHOR = "your name"
-EMAIL = "your mail"
-URL = "your project url"
-LICENSE = "your license"
-DESCRIPTION = "your project description"
+AUTHOR = "lizhihao6"
+EMAIL = "lizhihao6@outlook.com"
+URL = "https://github.com/lizhihao6/DoraemonPocket"
+LICENSE = "MIT License"
+DESCRIPTION = "Python library of computational videography "
 
 if __name__ == "__main__":
     setup(
@@ -27,12 +27,12 @@ if __name__ == "__main__":
         # change package_name to your package name.
         entry_points={
             "console_scripts": [
-                "package_name=package_name.shell:run"
+                "package_name=DoraemonPocket.shell:run"
             ]
         },
         package_data={
             # change package_name to your package name.
-            "package_name": ["src/*.txt"]
+            "DoraemonPocket": ["src/*.txt"]
         },
         zip_safe=True,
         classifiers=[
